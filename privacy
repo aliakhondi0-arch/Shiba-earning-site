@@ -1,149 +1,0 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قوانین و مقررات - کسب درآمد از تبلیغات</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Tahoma, Arial, sans-serif;
-        }
-        body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-            min-height: 100vh;
-            padding: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 50px auto;
-            background: rgba(0, 0, 0, 0.7);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-            color: #ffd700;
-            font-size: 2.5em;
-        }
-        h2 {
-            color: #00b894;
-            margin: 25px 0 15px 0;
-            border-right: 4px solid #00b894;
-            padding-right: 15px;
-        }
-        .section {
-            background: rgba(255,255,255,0.05);
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            line-height: 1.8;
-        }
-        .rules-list {
-            padding-right: 20px;
-        }
-        .rules-list li {
-            margin-bottom: 10px;
-            padding: 8px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 6px;
-        }
-        .back-btn {
-            display: block;
-            width: 200px;
-            margin: 40px auto 0;
-            padding: 12px;
-            background: linear-gradient(135deg, #00b894, #0984e3);
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            transition: transform 0.3s;
-            font-size: 16px;
-        }
-        .back-btn:hover {
-            transform: translateY(-2px);
-        }
-        .warning {
-            background: rgba(231, 76, 60, 0.2);
-            padding: 15px;
-            border-radius: 8px;
-            border-right: 4px solid #e74c3c;
-            margin: 15px 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>قوانین و مقررات</h1>
-        
-        <div class="section">
-            <h2>📋 شرایط استفاده از خدمات</h2>
-            <p>با استفاده از پلتفرم کسب درآمد از تبلیغات، شما این قوانین و مقررات را می‌پذیرید.</p>
-            
-            <ul class="rules-list">
-                <li>✅ کاربر باید حداقل 18 سال سن داشته باشد</li>
-                <li>✅ هر کاربر فقط می‌تواند یک اکانت داشته باشد</li>
-                <li>✅ استفاده از روش‌های غیرقانونی ممنوع است</li>
-                <li>✅ تبلیغات باید به طور کامل مشاهده شوند</li>
-                <li>✅ معرفی دوستان واقعی مجاز است</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>💰 شرایط برداشت</h2>
-            <ul class="rules-list">
-                <li>حداقل مبلغ برداشت: 200,000 شیبا</li>
-                <li>زمان واریز: حداکثر 24 ساعت کاری</li>
-                <li>کارمزد برداشت: رایگان</li>
-                <li>محدودیت ماهانه: 5 برداشت</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>🔒 حریم خصوصی</h2>
-            <p>ما متعهد به حفظ حریم خصوصی کاربران هستیم:</p>
-            <ul class="rules-list">
-                <li>اطلاعات شخصی شما محفوظ می‌ماند</li>
-                <li>اطلاعات به اشتراک گذاشته نمی‌شود</li>
-                <li>از استانداردهای امنیتی استفاده می‌کنیم</li>
-                <li>شما می‌توانید درخواست حذف اکانت دهید</li>
-            </ul>
-        </div>
-
-        <div class="warning">
-            <h3>⚠️ موارد منجر به مسدودی</h3>
-            <ul class="rules-list">
-                <li>ایجاد اکانت‌های متعدد</li>
-                <li>تقلب در سیستم تبلیغات</li>
-                <li>معرفی اکانت‌های جعلی</li>
-                <li>تخلف از قوانین تبلیغاتی</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>📞 حل اختلاف</h2>
-            <p>در صورت بروز هرگونه مشکل یا اختلاف:</p>
-            <ul class="rules-list">
-                <li>از طریق پشتیبانی تلگرام با ما در ارتباط باشید</li>
-                <li>مشکلات در سریع‌ترین زمان ممکن بررسی می‌شوند</li>
-                <li>حق توقف خدمات برای کاربران متخلف محفوظ است</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>📝 تغییر قوانین</h2>
-            <p>ما حق تغییر این قوانین را در هر زمان داریم. تغییرات از زمان انتشار در این صفحه قابل اجرا هستند.</p>
-            <p style="margin-top: 10px; font-size: 14px; opacity: 0.8;">آخرین بروزرسانی: دی ۱۴۰۲</p>
-        </div>
-        
-        <a href="index.html" class="back-btn">بازگشت به صفحه اصلی</a>
-    </div>
-</body>
-</html>
