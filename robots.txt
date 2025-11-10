@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+
+Sitemap: https://yoursite.netlify.app/sitemap.xml
+#Redeploy
