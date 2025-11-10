@@ -1,0 +1,28 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
+  conditions = {Language = ["fa"], Country = ["ir"]}
+
+# برای صفحات استاتیک
+[[redirects]]
+  from = "/about.html"
+  to = "/about.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/privacy.html"
+  to = "/privacy.html"
+  status = 200
+  force = true
